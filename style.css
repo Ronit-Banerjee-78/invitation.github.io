@@ -91,3 +91,15 @@ body {
     font-size: 1em;
     font-weight: bolder;
   }
+
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait){
+    .container {
+        max-width: 480px;
+        margin: 100px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+  }
