@@ -90,7 +90,8 @@ body {
     line-height: 25px;
     font-size: 1em;
   }
-@media only screen and (max-width: 600px){
+@media (min-width: 30em) and (max-width: 80em) {
+
     .main:hover:nth-child(2) {
         box-shadow: 10px 10px 50px rgb(15, 55, 231);
       }
