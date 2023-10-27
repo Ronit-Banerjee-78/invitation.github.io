@@ -92,14 +92,24 @@ body {
     font-weight: bolder;
   }
 
-  @media screen and (max-device-width: 480px)
-  and (orientation: portrait){
+  @media screen
+  and (max-device-width: 640px){
     .container {
-        max-width: 480px;
+        max-width: 680px;
         margin: 100px auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+      }
+      .main {
+        position: relative;
+        margin: 45px 0;
+        width: 400px;
+        height: 500px;
+        background: #fff;
+        transform-style: preserve-3d;
+        transform: perspective(2000px);
+        transition: 1s;
       }
 
   }
