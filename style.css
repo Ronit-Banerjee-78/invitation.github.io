@@ -95,7 +95,7 @@ body {
   @media screen
   and (max-device-width: 640px){
     .container {
-        max-width: 680px;
+        max-width: 600px;
         margin: 100px auto;
         display: flex;
         flex-wrap: wrap;
@@ -104,8 +104,8 @@ body {
       .main {
         position: relative;
         margin: 45px 0;
-        width: 400px;
-        height: 500px;
+        width: 500px;
+        height: 600px;
         background: #fff;
         transform-style: preserve-3d;
         transform: perspective(2000px);
